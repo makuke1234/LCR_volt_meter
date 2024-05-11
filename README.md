@@ -53,11 +53,6 @@ so the feature list extends from there.
 
 ## List of supported chips:
 
-* [x] ATSAMD21G16A
-* [x] ATSAMD21G16B
-* [x] ATSAMD21J16A
-* [x] ATSAMD21J16B
-
 * [x] ATSAMD21G17A
 * [x] ATSAMD21G17B
 * [x] ATSAMD21J17A
@@ -68,19 +63,12 @@ so the feature list extends from there.
 * [x] ATSAMD21J18A
 * [x] ATSAMD21J18B
 
-* [ ] ATSAMD20G16
-* [ ] ATSAMD20J16
-
 * [ ] ATSAMD20G17
 * [ ] ATSAMD20J17
 
 * [ ] ATSAMD20G18
 * [ ] ATSAMD20J18
 
-* [ ] ATSAML21G16A
-* [ ] ATSAML21G16B
-* [ ] ATSAML21J16A
-* [ ] ATSAML21J16B
 
 * [ ] ATSAML21G17A
 * [ ] ATSAML21G17B
@@ -95,9 +83,6 @@ so the feature list extends from there.
 
 ### Future expansion:
 
-* [ ] ATSAMC21G16
-* [ ] ATSAMC21J16
-
 * [ ] ATSAMC21G17
 * [ ] ATSAMC21J17
 * [ ] ATSAMC21N17
@@ -106,9 +91,6 @@ so the feature list extends from there.
 * [ ] ATSAMC21J18
 * [ ] ATSAMC21N18
 
-
-* [ ] ATSAMC20G16
-* [ ] ATSAMC20J16
 
 * [ ] ATSAMC20G17
 * [ ] ATSAMC20J17
