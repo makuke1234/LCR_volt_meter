@@ -1,7 +1,7 @@
 # LCR multimeter
 
-This is an ATSAMD21G16x + MCP3462R 16-bit ADC based LCR multimeter. Due to program size,
-at least the *16* chip is required (64 KB Flash, 8 KB RAM). The code is written so
+This is an ATSAMD21G18x + MCP3462R 16-bit ADC based LCR multimeter. Due to program size,
+at least the *17* chip is required (128 KB Flash, 16 KB RAM). The code is written so
 that the meter automatically tests for complex impedance which allows the meter to
 determine whether the DUT is reactive or passive. This allows to measure
 dissipation factor, quality factor, phase angle, ESR, capacitance and inductance.
@@ -24,21 +24,22 @@ so the feature list extends from there.
 
 ## Features
 
-* [x] Automatic resistive and reactive impedance measurement
-* [x] Automatic calculation of phase angle, dissipation factor, quality factor, capacitance and inductance
+* [ ] Automatic resistive and reactive impedance measurement
+* [ ] Automatic calculation of phase angle, dissipation factor, quality factor, capacitance and inductance
 * [x] Volt-meter up to 30 V with 65000 counts -> 1 mV resolution guaranteed
-* [x] Low-voltage measurements down to 10 mV full scale -> 0.16 uV resolution
-* [x] 0.004 degree C resolution on K-type thermocouples up to 250 degrees C
-  * [x] 0.03 degree C resolution up to 1200 degrees C
+* [ ] Low-voltage measurements down to 10 mV full scale -> 0.16 uV resolution
+* [ ] 0.004 degree C resolution on K-type thermocouples up to 250 degrees C
+  * [ ] 0.03 degree C resolution up to 1200 degrees C
 * [x] Measurement averaging up to 1024x256=262144 samples, 1024 samples guaranteed
-* [x] Automatic lead reversal
+* [x] Max. window algorithm to eliminate test signal interference under 1 kHz
 * [x] Default testing frequencies include 50 Hz, 60 Hz, 100 Hz, 120 Hz, 1 kHz, 10 kHz and 100 kHz
 * [x] Sinusoidal test signal up to 2 Msps @ 10 bits with 3-rd order Sallen-Key low-pass filtering
-* [x] Shunt measurements with up to 21 mA test current -> 1 micro-ohm resolution
-* [x] DC resistance measurements with down to 2 uA test current -> 1.5 mega-ohms full scale
+* [ ] Shunt measurements with up to 21 mA test current -> 1 micro-ohm resolution
+* [ ] DC resistance measurements with down to 2 uA test current -> 1.5 mega-ohms full scale
 * [x] Large 20x4 character display
 * [ ] Calibration via USB
 * [ ] Option to null the measurement
+* [ ] Automatic lead reversal
 
 
 ### TODO
